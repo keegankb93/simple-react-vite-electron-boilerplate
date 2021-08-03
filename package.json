@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "app/main/dist/main.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite serve app/renderer",
     "dev:electron": "concurrently \"yarn dev\" \"yarn electron .\" ",
     "build": "vite build",
     "serve": "vite preview",

@@ -1,7 +1,7 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
 const { join, resolve } = require("path");
 const { insertTitle, fetchTable } = require("../../common/dist/database.js");
-const isDevelopment = process.env.NODE_ENV === "development";
+const isDevelopment = true;
 
 function createWindow() {
   const win = new BrowserWindow({
